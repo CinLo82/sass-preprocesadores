@@ -24,7 +24,7 @@ main {
   margin: 0 auto;
   border-radius: 50em;
 }
-.perfil__nombre {
+.perfil__nombre, .perfil__minibio h3, .perfil__minibio h2 {
   text-transform: uppercase;
   text-align: center;
   font-size: 20px;
@@ -51,6 +51,10 @@ main {
   color: #FFFFFF;
 }
 
+.perfil__minibio {
+  margin: 0 auto;
+  padding-top: 20px;
+}
 .estadistica--perfil {
   display: flex;
   width: 50%;
@@ -74,6 +78,34 @@ main {
   text-align: center;
   text-transform: uppercase;
   font-family: "Oswald", sans-serif;
+  color: #333333;
+}
+
+.ubicacion--perfil {
+  width: 50%;
+  height: 90px;
+  margin: 30px auto 0px auto;
+  padding: 20px 0 0 50px;
+  background-color: #FFFFFF;
+}
+.ubicacion--perfil i {
+  display: block;
+  float: left;
+  padding-right: 10px;
+  font-size: 40px;
+  color: #3f579a;
+}
+.ubicacion--perfil h2 {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 20px;
+  font-family: "Oswald", sans-serif;
+  color: #333333;
+}
+.ubicacion--perfil h3 {
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+  color: #333333;
 }
 
 /*# sourceMappingURL=ejercicio-sass.css.map */
