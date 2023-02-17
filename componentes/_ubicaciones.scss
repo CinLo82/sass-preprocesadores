@@ -23,6 +23,6 @@
     h3 {
         text-transform: uppercase;
         font-family: $Fuente2;
-        color: $color-primario;
+        color: get-opacity($color-primario, .50);
     }
 }
